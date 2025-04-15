@@ -127,12 +127,4 @@ video {
     margin: 30px;
     margin-top: 10px;
   }
-
-  video {
-    max-height: 11rem;
-  }
 }
-
-
-git config --global user.email "deletobi653@gmail.com"
-git config --global user.name "Millie"
