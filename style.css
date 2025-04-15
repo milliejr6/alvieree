@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1.9rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+a:hover {
+  color: #a1a1a1;
+  text-decoration: none;
+  font-weight: 100;
+  transition: 0.4s;
+}
+
+.contact {
+  padding: 15px 35px;
+  border: orangered 2px solid;
+  background: transparent;
+  color: white;
+  border-radius: 50px;
+}
+
+.play_button {
+  padding: 15px 35px;
+  margin-top: 20px;
+  border: orangered 2px solid;
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+}
+.nav_left {
+  font-size: 1.5rem;
+}
+/* main section  */
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: calc(100vh - 80px);
+  align-items: center;
+  gap: 1rem;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 500px;
+  gap: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 200;
+}
+
+.right_side {
+  flex: 1;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.left_side,
+.right_side {
+  margin: 30px;
+  margin-top: 10px;
+}
+
+/* responsiveness */
+/* media queries */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  ul {
+    display: none;
+  }
+  .left_side,
+  .right_side {
+    margin: 30px;
+    margin-top: 10px;
+  }
+
+  video {
+    max-height: 11rem;
+  }
+}
+
+
+git config --global user.email "deletobi653@gmail.com"
+git config --global user.name "Millie"
